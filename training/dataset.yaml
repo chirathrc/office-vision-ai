@@ -1,0 +1,11 @@
+# Custom YOLOv8 Dataset Configuration for Office Activity Detection
+path: ./dataset
+train: images/train
+val: images/val
+
+names:
+  0: working
+  1: on_phone
+  2: meeting
+  3: break
+  4: idle
